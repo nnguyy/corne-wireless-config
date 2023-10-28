@@ -42,7 +42,7 @@
    &kp LCTRL &kp A &kp S &kp D &kp F &kp G   &kp H &kp J  &kp K     &kp L   &kp SEMI &kp SQT
    &kp LSHFT &kp Z &kp X &kp C &kp V &kp B   &kp N &kp M  &kp COMMA &kp DOT &kp FSLH &lt OS ESC
 //    &lt NUM ESC &hm LCTRL LGUI &hm LSHIFT SPACE   &lt NAV BSPC  &hm LALT TAB &lt SYM RET
-      &hm CTRL ESC &hm LSHIFT TAB &hm NUM SPACE    &lt NAV BSPC  &hm LALT DEL &hm LGUI RET
+      &hm CTRL ESC &hm LSHIFT TAB &lt NUM SPACE    &lt NAV BSPC  &hm LALT DEL &hm LGUI RET
             >;
         };
 
