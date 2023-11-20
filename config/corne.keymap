@@ -83,9 +83,9 @@
 
         symbol_layer {
             bindings = <
-&trans  &kp EXCL   &kp AT     &kp HASH  &kp DLLR  &trans    &kp PLUS  &kp APOS  &kp LBKT  &kp RBKT  &kp BSLH  &trans
+&trans  &kp EXCL   &kp AT     &kp HASH  &kp DLLR  &trans    &kp PLUS  &kp EQUAL &kp LBKT  &kp RBKT  &kp BSLH  &trans
 &trans  &kp PRCNT  &kp CARET  &kp AMPS  &kp ASTRK &trans    &kp MINUS &kp DQT   &kp LPAR  &kp RPAR  &kp PIPE  &kp GRAVE 
-&trans  &trans     &trans     &trans    &trans    &trans    &kp UNDER &kp EQUAL &kp LBRC  &kp RBRC  &kp SLASH &kp TILDE
+&trans  &trans     &kp LT     &kp MT    &trans    &trans    &kp UNDER &kp APOS  &kp LBRC  &kp RBRC  &kp SLASH &kp TILDE
                               &trans    &trans    &trans    &trans    &trans    &trans
             >;
         };
