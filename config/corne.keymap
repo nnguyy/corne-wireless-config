@@ -17,6 +17,7 @@
 #define NUM 4
 #define SYM 5
 #define OS 6
+#define STENO 7
 
 / {
     combos {
