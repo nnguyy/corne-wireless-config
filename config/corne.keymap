@@ -17,7 +17,6 @@
 #define NUM 4
 #define SYM 5
 #define OS 6
-#define STENO 7
 
 / {
     combos {
@@ -98,15 +97,6 @@
 &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &trans           &trans        &kp C_PREVIOUS     &kp C_VOLUME_DOWN  &kp C_NEXT   &trans
                                         &trans     &trans        &trans          &kp C_PLAY_PAUSE &trans        &kp C_MUTE
 
-            >;
-        };
-
-        steno_layer {
-            bindings = <
-    &none     &none      &none      &none      &none      &none               &none      &none      &none      &none      &none      &none 
-    &none     &kp PLV_SL &kp PLV_TL &kp PLV_PL &kp PLV_HL &none               &kp PLV_ST &kp PLV_FR &kp PLV_PR &kp PLV_LR &kp PLV_TR &kp PLV_DR
-    &none     &kp PLV_SL &kp PLV_KL &kp PLV_WL &kp PLV_RL &none               &kp PLV_ST &kp PLV_RR &kp PLV_BR &kp PLV_GR &kp PLV_SR &kp PLV_ZR
-                                     &kp PLV_A  &kp PLV_O &none               &none &kp PLV_E &kp PLV_U
             >;
         };
     };
