@@ -1,3 +1,3 @@
-Personal Keybindings for Corne keyboard
+##Personal Keybindings for Corne keyboard
 
   * Minimized use of pinky keys
